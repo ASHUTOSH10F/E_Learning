@@ -1,0 +1,145 @@
+/*------------------------------header-portion------------------------------*/
+#org-name
+{
+	font-variant: small-caps;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 40px;
+	margin-left: 50px;
+}
+/*-----Menu-Tab--------*/
+		.menu ul{
+			list-style: none;
+			display: flex;
+			position: relative;
+	
+		}
+		.menu ul li a
+		{
+			display: block;
+			text-decoration: none;
+			color: #fff;
+			padding: 15px 30px;
+			cursor: pointer;
+			font-size: 18px;
+			text-transform: uppercase;
+			font-weight: 900;
+			font-family: poppins;
+		}
+		.menu ul li a:hover
+		{
+			color: #000;
+		}
+/*-------mid-left-area-mentor-----------*/
+.card
+{
+	margin-top: 60px;
+    margin-left: 70px;
+	width:260px;
+	background-color: seashell ! important;
+}
+.card h4
+{
+	font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    color: saddlebrown;
+}
+.card-text
+{
+	font-size: smaller;
+    text-align: justify;
+    font-family: sans-serif;
+}
+/*-------mid-right-area-quetion---------*/
+#head1
+{
+    margin-left: 50px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-top: 30px;
+	font-family: serif;
+    font-weight: bold;
+}
+#head2
+{
+	 margin-left: 400px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    margin-bottom: 15px;
+    margin-top: 30px;
+	text-decoration: underline;
+}
+#head3
+{
+	margin-left: 330px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    text-decoration: underline;
+	margin-top: 50px;
+}
+#btn1
+{
+   margin-top: 2rem;
+    margin-left: 25rem;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+}
+#btn
+{
+	margin-left: 130px;
+    width: 45rem;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+/*------------------------footer-portion-------------------*/
+.col-xl-5
+{
+	    padding-left: 100px;
+    line-height: 10px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+	 padding-left: 70px ! important;
+	
+}
+.col-xl-5 > h3
+{
+	text-decoration: underline;
+    margin-bottom: 25px;
+}
+.col-xl-7
+{
+	    padding-left: 7rem ! important;
+	    padding-left: 5rem;
+    text-transform: capitalize;
+    font-family: monospace;
+	
+}
+.col-xl-7 > h5
+{
+	text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#link
+{
+	margin-top: 35px;
+    font-size: large;
+    margin-left: s5px;
+}
+/*--servies------*/
+ul li p:hover
+{
+	color: red;
+	cursor:pointer;
+}
+/*---------footer-portion-----------*/
+.footer
+{
+	 background-image: linear-gradient(360deg, papayawhip, transparent);
+	margin-top: 150px;
+}

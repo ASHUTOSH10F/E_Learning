@@ -1,0 +1,257 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+/*------------------------------header-portion------------------------------*/
+#org-name
+{
+	font-variant: small-caps;
+    text-transform: capitalize;
+    font-weight: bold;
+	font-family: auto;
+    font-size: 40px;
+	margin-left: 50px;
+}
+/*-----Menu-Tab--------*/
+
+#navBar
+{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+		.menu ul{
+			list-style: none;
+			display: flex;
+			position: relative;
+	
+		}
+		.menu ul li a
+		{
+			display: block;
+			text-decoration: none;
+			color: #fff;
+			padding: 15px 30px;
+			cursor: pointer;
+			font-size: 18px;
+			text-transform: uppercase;
+			font-weight: 900;
+			font-family: poppins;
+		}
+		.menu ul li a:hover
+		{
+			color: #000;
+		}
+
+#itstyle
+{
+	 width: 155px;
+    font-size: large;
+    font-weight: 700;
+}
+
+#mngstyle
+{
+	 width: 155px;
+    font-size: large;
+    font-weight: 700;
+}
+
+/*--------- carousel-caption-portion -----------*/   
+.carousel-inner
+{
+	    height: 370px;
+}
+.carousel-fade
+{
+	 margin-left: 100px;
+    margin-right: 100px;
+	border: 2px groove;
+}
+.carousel-item
+{
+	width:100%; 
+}
+.carousel-item img
+{
+  height: 370px; 
+}
+ .carousel-caption a
+{
+	border: 1px solid gray;
+}
+.carousel-caption
+ {
+  margin-bottom: 70px;
+  font-size: x-large;
+  font-variant: small-caps;
+ }
+.carousel-caption p
+{
+    margin-bottom: 5rem;
+    color: mintcream;
+    font-size: x-large;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+/*-----------mid-portion(left-side)------------------*/
+#mission
+{
+	    margin-top: 100px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-family: math;
+    font-size: 35px;
+}
+#moto
+{
+	text-transform: capitalize;
+    font-size: large;
+    font-family: monospace;
+    margin-top: 30px;
+}
+#caption
+{
+     text-align: center;
+    margin-top: 100px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-variant: small-caps;
+}
+#caption1
+{
+	text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+.col-xl-6>img
+{
+	height:14rem;
+	width: 28rem;
+	margin-top:20px;
+	border-radius: 3px;
+	margin-left: 5px
+}
+.card
+{
+	width:270px;
+	height:420px;
+	background: snow ! important;
+}
+.card-title
+{
+	font-family: auto;
+}
+.card-text
+{
+	text-transform: capitalize;
+    font-variant: small-caps;
+    line-height: 35px;
+}
+.card>img
+{
+	 height: 45%;
+    width: 68%;
+    margin-left: 35px;
+    border-radius: 123px;
+    margin-top: 5px;
+	cursor: pointer;
+}
+ .card>img:hover{
+	transform: scale(1.05);
+	transition: 1s;
+    }
+/*----------footer-portion---------------*/
+.col-xl-5
+{
+	    padding-left: 100px;
+    line-height: 10px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+	 padding-left: 70px ! important;
+	
+}
+.col-xl-5 > h3
+{
+	text-decoration: underline;
+    margin-bottom: 25px;
+}
+.col-xl-5 > p
+{
+	    font-weight: 500;
+}
+.col-xl-7
+{
+	    padding-left: 7rem ! important;
+	    padding-left: 5rem;
+    text-transform: capitalize;
+    font-family: monospace;
+	
+}
+.col-xl-7 > h5
+{
+	text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+/*---------social-media-links---------*/
+#link
+{
+	margin-top: 35px;
+    font-size: large;
+    margin-left: s5px;
+}
+/*--servies------*/
+ul li p:hover
+{
+	color: red;
+	cursor:pointer;
+}
+/*---------footer-portion-----------*/
+.footer
+{
+	 background-image: linear-gradient(360deg, papayawhip, transparent);
+	margin-top: 150px;
+}
+@media(min-width:480px) and (max-width:575px)
+{
+	.piccen
+	{
+		text-align: center;
+	}
+	
+
+}
+@media(min-width:240px) and (max-width:480px)
+{
+	#itstyle
+	{
+    width: 125px;
+    font-size: medium;
+    font-weight: 500;
+	}
+	#mngstyle
+	{
+    width: 125px;
+    font-size: small;
+    font-weight: 500;
+	}
+}
+@media(min-width:1030px) and (max-width:1350px)
+{
+	#moto
+	{
+		padding-right: 40px;
+	}
+	#img
+	{
+		padding-left:120px;
+	}
+	.row
+	{
+     display: flex;
+    flex-wrap: nowrap;
+	}
+	
+}

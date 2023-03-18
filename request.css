@@ -1,0 +1,177 @@
+/*------------------------------header-portion------------------------------*/
+#org-name
+{
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 50px;
+}
+/*-----Menu-Tab--------*/
+		.menu ul{
+			list-style: none;
+			display: flex;
+			position: relative;
+	
+		}
+		.menu ul li a
+		{
+			display: block;
+			text-decoration: none;
+			color: #fff;
+			padding: 15px 30px;
+			cursor: pointer;
+			font-size: 18px;
+			text-transform: uppercase;
+			font-weight: 900;
+			font-family: poppins;
+		}
+		.menu ul li a:hover
+		{
+			color: #000;
+	}
+/*------image-portion--------*/
+img
+{
+	height: 20rem;
+    width: 70rem;
+    border-radius: 5px;
+}
+/*--------form-------------*/
+form
+{
+	border: 2px ridge;
+    border-top: none;
+}
+.input-row
+{
+	background-image: linear-gradient(180deg, snow, transparent);
+    border: 2px groove;
+}
+input
+{
+	width: 35rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+	padding-top: 10px;
+	background-color: transparent;
+}
+textarea.form-control
+{
+	height: 5rem;
+    width: 45rem;
+	margin-bottom: 1rem;
+	background-color: transparent;
+	 border: 2px solid #ccc;
+}
+lebel
+{
+    margin-bottom: 5px;
+    display: block;
+     margin-top: 30px;
+    font-size: large;
+    font-variant: small-caps;
+    font-weight: 500;
+	line-height: 0px;
+}
+#msg
+{
+	 font-size: large;
+    font-variant: small-caps;
+    font-weight: 500;
+	margin-top: 35px;
+	margin-left: 45px;
+    line-height: 0px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: serif;
+  font-weight: bold;
+  color: linen;
+  font-size: large;
+}
+textarea
+{
+	width: 35rem;
+    height: 8rem;
+    resize: none ! important;
+	background-color: transparent;
+	border: 1px groove orange;
+    border-radius: 5px;
+	margin-top: 15px ! important;
+	margin-bottom: 25px ! important;
+
+}
+.row_inner
+{
+  padding: 40px !important;
+}
+.btn-warning
+{
+    margin-left: 80px;
+    margin-bottom: 25px;
+    margin-top: -25px;
+    width: 30rem;
+	    font-weight: 700 ! important;
+}
+.col-xl-5
+{
+	    padding-left: 100px;
+    line-height: 10px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+	 padding-left: 70px ! important;
+	
+}
+.col-xl-5 > h3
+{
+	text-decoration: underline;
+    margin-bottom: 25px;
+}
+.col-xl-5 > p
+{
+	    font-weight: 500;
+}
+.col-xl-7
+{
+	    padding-left: 7rem ! important;
+	    padding-left: 5rem;
+    text-transform: capitalize;
+    font-family: monospace;
+	
+}
+.col-xl-7 > h5
+{
+	text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+/*---------social-media-links---------*/
+#link
+{
+	margin-top: 35px;
+    font-size: large;
+    margin-left: s5px;
+}
+/*--servies------*/
+ul li p:hover
+{
+	color: red;
+	cursor:pointer;
+}
+/*---------footer-portion-----------*/
+.footer
+{
+	 background-image: linear-gradient(360deg, papayawhip, transparent);
+	margin-top: 150px;
+}
